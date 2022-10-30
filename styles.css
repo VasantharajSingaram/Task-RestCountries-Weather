@@ -1,0 +1,67 @@
+@import url();
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    margin-top: 90px;
+    text-align: center;
+}
+
+
+
+/* h3{
+    padding-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 9rem;
+    color: black
+} */
+
+.heading{
+    padding-top: 50px;
+    margin-bottom: -50px;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+
+h6{
+    color: white; 
+    text-align: center;
+}
+
+.card:hover{
+    box-shadow: 0 8px 8px -4px black;
+    transition: .5s ease all;
+    transform: scale(1.1);
+    
+}
+
+.weather{
+    transform: scaleX(-1);
+}
+
+.navbar-brand {
+   
+    color: white !important;
+}
+
+.form-control{
+    color: white !important;
+}
+
+.card-text{
+    color: white !important;
+}
+
+.card-header{
+    background-color: black !important;
+    
+}
